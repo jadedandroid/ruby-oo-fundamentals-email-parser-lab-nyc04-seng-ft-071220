@@ -9,9 +9,7 @@ class EmailAddressParser
   end
   
   def parse
-   parsed  = []
    emails.split(",").uniq
-   parsed+email
   end
   
   
